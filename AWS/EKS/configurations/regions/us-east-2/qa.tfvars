@@ -7,10 +7,10 @@ s3_folder_type = "state"                            #Will be used to set backend
 s3_tfstate_file = "infrastructure.tfstate_ohio.json"     #Will be used to set backend.tf
 
 
-vpc_id = "vpc-0e2aee740a3d4dbc0"
-subnet1 = "subnet-0a42f7a19c801de5e"
-subnet2 = "subnet-099fbb146f92e3534"
-subnet3 = "subnet-04e077e20ded319d3"
+vpc_id = "vpc-01db19e64c20f8891"
+subnet1 = "subnet-0674a7e106a71ed5e"
+subnet2 = "subnet-0b318d1e28a47c4e0"
+subnet3 = "subnet-0d62f60f0b9cbe8af"
 cluster_name = "ohio-cluster"
 instance_type = "t2.micro"
 asg_max_size = "48" 
